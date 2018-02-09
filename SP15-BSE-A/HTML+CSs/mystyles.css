@@ -1,0 +1,35 @@
+h2{
+    color: orangered;
+    background-image: url("home.jpg");
+}
+h1,h2{
+    background-color: blueviolet;
+}
+
+h2{
+    background-image: none;
+}
+
+.menu{
+    display: inline;
+    color: orange;
+}
+ul{
+    display: block;
+    background-color: burlywood;
+}
+a{
+    color: orange;
+}
+a:hover{
+/*font-size: 150%;*/
+    color: white;
+}
+
+#top{
+    color: yellow;
+}
+
+img{
+    float: right;
+}

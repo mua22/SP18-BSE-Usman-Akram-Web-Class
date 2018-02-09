@@ -1,0 +1,29 @@
+body{
+    background-color: #d9fff8;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+
+#top{
+    background-color: blue;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    font-size: 150%;
+}
+#info{
+    color: chocolate;
+}
+.menuItem{
+    display: inline;
+}
+
+img{
+    float: right;
+    width: 15%;
+}
