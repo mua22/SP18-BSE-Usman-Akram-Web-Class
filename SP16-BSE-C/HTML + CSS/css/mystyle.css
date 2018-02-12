@@ -1,0 +1,28 @@
+h1{
+    background-color: chocolate;
+}
+b{
+    background-color: blueviolet;
+}
+
+#students{
+    background-image: url("../test.jpg");
+}
+
+.menu{
+    display: inline;
+    color: white;
+}
+
+ul{
+    background-color: burlywood;
+}
+a{
+    color: white;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+table{
+    width:100%;
+}
