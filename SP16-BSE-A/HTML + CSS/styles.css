@@ -1,0 +1,35 @@
+h3{
+    background-color: blueviolet;
+    color:  chocolate;
+}
+b{
+    background-color: blue;
+}
+img{
+    float: right;
+    width: 150px;
+}
+
+#kids{
+    background-image: url("../images/sunshine.jpg");
+}
+
+
+.menu{
+    margin-right: 10px;
+    display: inline;
+}
+
+ul{
+    background-color: coral;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+
+}
