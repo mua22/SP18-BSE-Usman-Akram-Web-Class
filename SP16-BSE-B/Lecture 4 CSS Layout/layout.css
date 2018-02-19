@@ -1,0 +1,36 @@
+#container{
+
+}
+
+h1{
+    font-size: 4em;
+}
+#left{
+    background-color: #00ccff;
+    width: 70%;
+    overflow: hidden;
+}
+#news ul{
+    list-style-type: none;
+}
+#news{
+    float: left;
+    width: 25%;
+    background-color: yellowgreen;
+}
+h4{
+    clear: both;
+}
+#right{
+    width: 20%;
+    float: right;
+}
+
+.newsItem{
+    background-color: #adb5bd;
+}
+
+div{
+
+    margin: 20px;
+}

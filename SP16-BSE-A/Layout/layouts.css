@@ -1,0 +1,19 @@
+#top{
+    background-color: lightgray;
+    overflow: hidden;
+}
+#center{
+    background-color: #00aa88;
+    clear: both;
+}
+#topText{
+    width: 50%;
+    float: right;
+    border: 2px solid;
+}
+
+.col{
+    border: 1px solid;
+    float: right;
+    width: 20%;
+}

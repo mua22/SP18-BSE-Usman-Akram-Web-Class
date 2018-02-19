@@ -1,0 +1,33 @@
+#top{
+    background-color: black;
+    color: white;
+}
+#top a{
+    color: white;
+}
+
+#top li{
+    display: inline;
+}
+
+
+
+
+#left{
+    float: right;
+    width: 20%;
+}
+#content{
+    background-color: #adb5bd;
+    float: left;
+    width: 80%;
+}
+
+#footer{
+    clear: both;
+}
+
+div{
+    border: 3px solid black;
+    margin: 10px;
+}
