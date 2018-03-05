@@ -1,0 +1,38 @@
+#top{
+    background-color: #4f9fcf;
+    color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#menu li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.menuItem a{
+    color: white;
+}
+.menuItem a:hover{
+    color: black;
+}
+
+#container{
+    overflow: hidden;
+    background-color: #33aaaa;
+}
+
+#right{
+    width: 20%;
+
+    float: right;
+}
+
+/*div{
+    border: 2px solid black;
+    margin: 2px;
+}*/
+
+#h3{
+    clear: both;
+}
