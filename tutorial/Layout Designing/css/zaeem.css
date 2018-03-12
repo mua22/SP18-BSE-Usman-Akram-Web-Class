@@ -1,0 +1,61 @@
+#menu{
+    border-bottom: 2px solid black;
+    background-color: #33aaaa;
+
+}
+
+#menu > li{
+    display: inline;
+    position: relative;
+}
+
+#menu li a{
+    /*color: white;*/
+}
+
+#menu li a:hover{
+    color: black;
+}
+
+.subMenu{
+    display: none;
+    background-color: #2f6f9f;
+}
+
+
+#menu li:hover .subMenu{
+    display: block;
+    position: absolute;
+    color: black;
+    right: -10px;
+
+}
+
+
+#container{
+overflow: hidden;
+}
+
+#left{
+    float:left;
+    width: 20%;
+}
+
+#right{
+    float:right;
+    width: 20%;
+}
+
+div{
+    border: 1px dashed black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#footer{
+    clear:both;
+}
+
+#center{
+    margin-left: 20%;
+}

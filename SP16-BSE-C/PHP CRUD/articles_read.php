@@ -26,7 +26,8 @@ echo 'Database Connected!.<hr>';
     {
         echo "<tr>";
         echo "<td>".$row['id']."</td><td>".$row['title'] . '</td><td>'.$row['content'].'</td>';
-        echo "<td><a href='edit.php?id=' class='btn btn-primary'>Edit</a> <a href='delete.php?id=' class='btn btn-danger'>Delete</a></td></tr>";
+        echo "<td><a href='edit.php?id={$row['id']}' class='btn btn-primary'>Edit</a> 
+        <a href='delete.php?id={$row['id']}' class='btn btn-danger'>Delete</a></td></tr>";
     }
     ?>
     </tbody>
