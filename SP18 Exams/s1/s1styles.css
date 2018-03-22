@@ -1,0 +1,23 @@
+#menu li{
+    display:inline;
+}
+
+div{
+    border: solid thin;
+    padding: 10px;
+    margin: 5px;
+}
+#left{
+    float:left;
+    width: 20%;
+}
+#right{
+    float:right;
+    width: 20%;
+}
+#container{
+    overflow: hidden;
+}
+h1{
+    clear:right;
+}
