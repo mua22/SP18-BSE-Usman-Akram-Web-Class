@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+        $('#btnTest').click(testAjax);
+    });
+
+    function testAjax() {
+        $.get('dummy.php',function (result) {
+            $('#result').html(result);
+        });
+        //alert('written after ajax request');
+    }
+    </script>
+</head>
+<body>
+<button id="btnTest">Test Ajax</button>
+<div id="result">
+    Result would show here
+</div>
+</body>
+</html>
