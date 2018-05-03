@@ -1,21 +1,26 @@
 <?php
 
 /*Route::get('/',function (){
-    return 'Hello Class';
+return 'Hello C Section';
+});
+*/
+/*Route::get('/',function (){
+return view('welcome');
 });*/
 
-Route::get('/',function (){
-    return view('frontpage');
+//Route::get('/','ProductsController@homepage');
+Route::resource('products','ProductsController');
+Route::get('/heavy-bikes',function (){
+return view('bikes');
+})->name('bikes');
+
+
+Route::get('/used-laptop',function (){
+return view('laptops');
+})->name('laptops');
+Route::get('/contact-us',function (){
+return view('contact');
 });
 
-Route::get('/t1',function (){
-    return view('type1');
-})->name('type-1');
 
-Route::get('/type-2',function (){
-    return view('type2');
-});
-
-Route::get('/moody',function (){
-    return view('moody');
-});
+?>

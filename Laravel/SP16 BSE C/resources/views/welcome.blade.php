@@ -1,5 +1,5 @@
 @extends('master')
 
 @section('content')
-    <h2>Front Page</h2>
-@endsection
+<h4>Welcome</h4>
+    @endsection

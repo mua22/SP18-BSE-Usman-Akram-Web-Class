@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="/css/mystyles.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
 <ul id="menu">

@@ -1,12 +1,15 @@
 <?php
 
+
+Route::get('/','PostsController@index');
+
 /*Route::get('/',function (){
     return 'Hello Class';
 });*/
-
+/*
 Route::get('/',function (){
     return view('frontpage');
-});
+});*/
 
 Route::get('/t1',function (){
     return view('type1');
@@ -19,3 +22,4 @@ Route::get('/type-2',function (){
 Route::get('/moody',function (){
     return view('moody');
 });
+

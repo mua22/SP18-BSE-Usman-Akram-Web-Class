@@ -1,5 +1,5 @@
 @extends('master')
 
 @section('content')
-    <h2>Moody</h2>
+    <h4>Contact</h4>
 @endsection
