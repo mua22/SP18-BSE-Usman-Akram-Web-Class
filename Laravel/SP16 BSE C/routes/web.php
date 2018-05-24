@@ -22,5 +22,11 @@ Route::get('/contact-us',function (){
 return view('contact');
 });
 
-
+Route::resource('players','PlayersController');
+//Route::get('players','PlayersController@index');
+//Route::post('players','PlayersController@store');
+//Route::patch('players/{id}','PlayersController@update');
+//Route::get('players/create','PlayersController@create');
+//Route::get('players/{pid}/delete','PlayersController@destroy');
+//Route::get('players/{pid}/edit','PlayersController@edit');
 ?>
